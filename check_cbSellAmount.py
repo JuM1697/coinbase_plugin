@@ -27,7 +27,6 @@ client = Client(api_key, api_secret)
 accounts = client.get_accounts()
 pms = client.get_payment_methods()
 
-
 for method in pms.data:
     if method['name'] == targetPaymentMethod:
         paymentID = method['id']
