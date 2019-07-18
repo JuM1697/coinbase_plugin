@@ -2,9 +2,9 @@
 Nagios Plugin to monitor prices of specific Crypto Currencies on Coinbase.
 
 ## Purpose
-The goal of this script is to monitor current buy rates for various crypto currencies on Coinbase, including the fees.
+The goal of this script is to monitor current buy rates for various Crypto Currencies on Coinbase, including the fees.
 ### When should I use this plugin?
-If you have in your head something like: "If I can get 1 BTC for 2.000€ I want to receive a notification." - This is the plugin you were looking for.
+If you have in your head something like: "If I can get 1 BTC for 2.000$ I want to receive a notification." - This is the plugin you were looking for.
 ### Why should I use this plugin?
 Due to the fact that Coinbase has really high fees it's interesting to monitor the buy prices including the fees without checking the app or web interface all the time.
 Connecting this script with Icinga or Nagios makes it even easier to automatically start processes if your desired price is currently live.
