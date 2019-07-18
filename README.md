@@ -30,5 +30,5 @@ Example:
 ## Exit Codes
 |Code|Nagios State|Description|Output|
 |---|---|---|---|
-|0|OK - Green|The desired price for the specified currency is not reached|Your desired target price is not reached. Keep waiting! \| price=<value>|
-|2|Critical - Red|The desired price for the specified currency is not reached.|Your desired target price is reached! \| price=<value> |
+|0|OK - Green|The desired price for the specified currency is not reached|Your desired target price is not reached. Keep waiting! \| price=\<value\>|
+|2|Critical - Red|The desired price for the specified currency is not reached.|Your desired target price is reached! \| price=\<value\> |
