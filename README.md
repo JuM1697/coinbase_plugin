@@ -10,7 +10,7 @@ Due to the fact that Coinbase has really high fees it's interesting to monitor t
 Connecting this script with Icinga or Nagios makes it even easier to automatically start processes if your desired price is currently live.
 
 ## Functionality
-This script works using the official Coinbase API (key and secret).
+This script works using the official Coinbase API (key and secret).  
 The plugin has been written in Python which gives it the additional feature to use the official Coinbase Python Library.
 
 ## Requirements
