@@ -27,3 +27,8 @@ Just call the script using the following parameters and input values:
 Example:  
 `./check_cbSellAmount.py -k 'xxxxxxxxxxxxxxxx' -s 'xxxxxxxxxxxxxxxxxxxxxx' -c 'BTC' -a 'BTC Wallet' -b '1' -p 'USD Wallet' -i '1000.00'`
 
+## Exit Codes
+|Code|Nagios State|Description|Output|
+|---|---|---|---|
+|0|OK - Green|The desired price for the specified currency is not reached|Your desired target price is not reached. Keep waiting! \| price=<value>|
+|2|Critical - Red|The desired price for the specified currency is not reached.|Your desired target price is reached! \| price=<value> |
