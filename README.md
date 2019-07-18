@@ -17,13 +17,13 @@ The plugin has been written in Python which gives it the additional feature to u
 * argparse
 * coinbase
 ### Requirements installation
-`pip install argparse` 
+`pip install argparse`  
 `pip install coinbase` 
 
 ## Usage
-Just call the script using the following parameters and input values:
+Just call the script using the following parameters and input values:  
 `./check_cbSellAmount.py -k <API Key> -s <API Secret> -c <Which Crypto do you want to buy> -a <Crypto Wallet> -b <Amount of Crypto you want to buy> -p <Your desired payment method> -i <How much of your payment Method do you want to invest>`
 
-Example:
+Example:  
 `./check_cbSellAmount.py -k 'xxxxxxxxxxxxxxxx' -s 'xxxxxxxxxxxxxxxxxxxxxx' -c 'BTC' -a 'BTC Wallet' -b '1' -p 'USD Wallet' -i '1000.00'`
 
