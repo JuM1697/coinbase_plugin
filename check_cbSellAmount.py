@@ -42,8 +42,8 @@ buy = client.buy(accountID,commit="false",amount=targetAmountToBuy, currency=tar
 costs = buy["total"]["amount"]
 
 if costs < investMoney:
-    print("Einkaufen!")
+    print("Your desired target price is reached! | price="+costs)
     sys.exit(2)
 else:
-    print("Aktueller Preis: "+costs+" Warten...")
+    print("Your desired target price is not reached. Keep waiting! | price="+costs)
     sys.exit(0)
