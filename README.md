@@ -11,7 +11,8 @@ Connecting this script with Icinga or Nagios makes it even easier to automatical
 
 ## Functionality
 This script works using the official Coinbase API (key and secret).  
-The plugin has been written in Python which gives it the additional feature to use the official Coinbase Python Library.
+The plugin has been written in Python which gives it the additional feature to use the official Coinbase Python Library.  
+The plugin also returns the current price for the defined amount as performance data.
 
 ## Requirements
 * argparse
