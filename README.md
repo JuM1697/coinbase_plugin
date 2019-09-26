@@ -1,4 +1,4 @@
-# coinbase_plugin
+# Coinbase Plugin Time To Invest
 Nagios Plugin to monitor prices of specific Crypto Currencies on Coinbase.
 
 ## Purpose
