@@ -23,10 +23,10 @@ The plugin also returns the current price for the defined amount as performance 
 
 ## Usage
 Just call the script using the following parameters and input values:  
-`./check_cbSellAmount.py -k <API Key> -s <API Secret> -c <Which Crypto do you want to buy> -a <Crypto Wallet> -b <Amount of Crypto you want to buy> -p <Your desired payment method> -i <How much of your payment Method do you want to invest>`
+`./check_cbTimeToInvest.py -k <API Key> -s <API Secret> -c <Which Crypto do you want to buy> -a <Crypto Wallet> -b <Amount of Crypto you want to buy> -p <Your desired payment method> -i <How much of your payment Method do you want to invest>`
 
 Example:  
-`./check_cbSellAmount.py -k 'xxxxxxxxxxxxxxxx' -s 'xxxxxxxxxxxxxxxxxxxxxx' -c 'BTC' -a 'BTC Wallet' -b '1' -p 'USD Wallet' -i '1000.00'`
+`./check_cbTimeToInvest.py -k 'xxxxxxxxxxxxxxxx' -s 'xxxxxxxxxxxxxxxxxxxxxx' -c 'BTC' -a 'BTC Wallet' -b '1' -p 'USD Wallet' -i '1000.00'`
 
 ## Exit Codes
 |Code|Nagios State|Description|Output|
