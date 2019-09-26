@@ -18,7 +18,7 @@ api_secret = args["secret"]
 targetPaymentMethod = args["paymentMethod"]
 targetCurrency = args["currencyToBuy"]
 targetBuyCurrencyWallet = args["accountWallet"]
-investMoney = args["invest"]
+investMoney = float(args["invest"])
 targetAmountToBuy = args["buy"]
 
 
@@ -39,11 +39,11 @@ for account in accounts.data:
 
 buy = client.buy(accountID,commit="false",amount=targetAmountToBuy, currency=targetCurrency, payment_method=paymentID, quote="true")
 
-costs = buy["total"]["amount"]
+costs = float(buy["total"]["amount"])
 
 if costs < investMoney:
-    print("Your desired target price is reached! | price="+costs)
+    print("Your desired target price is reached! | price="+str(costs))
     sys.exit(2)
 else:
-    print("Your desired target price is not reached. Keep waiting! | price="+costs)
+    print("Your desired target price is not reached. Keep waiting! | price="+str(costs))
     sys.exit(0)
